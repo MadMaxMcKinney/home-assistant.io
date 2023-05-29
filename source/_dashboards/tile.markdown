@@ -27,6 +27,10 @@ name:
   required: false
   description: Overwrites the name of entity.
   type: string
+secondary_info_type:
+  required: false
+  description: The content to show below the name. `state`, `none`
+  type: list
 icon:
   required: false
   description: Overwrites the icon of entity.
